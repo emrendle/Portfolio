@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E4FDE1;
+}
+
+
+
+img {
+    border: solid 6px #575761;
+    padding: 12px;
+    background-color: #648381;
+} 
+
+.pos-s {
+    position: sticky;
+}
+
+.font-dg {color: #575761;}
+.font-pis {color: #8ACB88;}
+.font-nyan {color: #E4FDE1;}
+.font-st {color: #648381;}
+.font-dg {color: #575761;}
+.font-myr {color: #FFBF46;}
+
+.bgc-pis {background-color: #8ACB88;}
+.bgc-nyan {background-color: #E4FDE1;}
+.bgc-st {background-color: #648381;}
+.bgc-dg {background-color: #575761;}
+.bgc-myr {background-color: #FFBF46;}
+
+.margin {margin: 24px;}
+
+.padding {padding: 12px;}
+
+.border-6dg {border: solid 6px #575761}
+.border-3dg {border: solid 3px #575761}
+.border-1dg {border: solid 1px #575761}
