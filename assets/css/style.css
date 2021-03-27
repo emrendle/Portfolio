@@ -1,37 +1,25 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #E4FDE1;
 }
 
+.pos-s {position: sticky;}
 
+.font-cb {color: #729EA1;}
+.font-sg {color: #B5BD89;}
+.font-tn {color: #DFBE99;}
+.font-lc {color: #EC9192;}
+.font-bl {color: #DB5375;}
 
-img {
-    border: solid 6px #575761;
-    padding: 12px;
-    background-color: #648381;
-} 
-
-.pos-s {
-    position: sticky;
-}
-
-.font-dg {color: #575761;}
-.font-pis {color: #8ACB88;}
-.font-nyan {color: #E4FDE1;}
-.font-st {color: #648381;}
-.font-dg {color: #575761;}
-.font-myr {color: #FFBF46;}
-
-.bgc-pis {background-color: #8ACB88;}
-.bgc-nyan {background-color: #E4FDE1;}
-.bgc-st {background-color: #648381;}
-.bgc-dg {background-color: #575761;}
-.bgc-myr {background-color: #FFBF46;}
+.bgc-cb {background-color: #729EA1;}
+.bgc-sg {background-color: #B5BD89;}
+.bgc-tn {background-color: #DFBE99;}
+.bgc-lc {background-color: #EC9192;}
+.bgc-bl {background-color: #DB5375;}
 
 .margin {margin: 24px;}
 
 .padding {padding: 12px;}
 
-.border-6dg {border: solid 6px #575761}
-.border-3dg {border: solid 3px #575761}
-.border-1dg {border: solid 1px #575761}
+.border-6 {border: solid 6px black}
+.border-3 {border: solid 3px black}
+.border-2 {border: solid 2px black}
