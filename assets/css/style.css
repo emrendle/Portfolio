@@ -1,3 +1,4 @@
+/* Root section for editing color scheme of the page */
 :root {
     --dark: #50514F;
     --lessdark: #6F726C;
@@ -5,12 +6,13 @@
     --light: white;
 }
 
+/* Universal font and background color for the entire page */
 * {
     font-family: 'Lexend', sans-serif;
     background-color: var(--light);
 }
 
-
+/* All header-related styles including nav bar */
 .h-cont {
     display: flex;
     align-items: center;
@@ -27,6 +29,7 @@
     color: var(--dark);
 }
 
+ /* Nav bar styles including link hover behavior and link icon styling */
 .nav-cont {
     display: flex;
     justify-content: space-evenly;
@@ -42,6 +45,7 @@
     height: 30px;
 }
 
+/* About me content styles below */
 .abt-cont {
     display: flex;
     flex-direction: row;
@@ -51,6 +55,7 @@
     margin: 48px 24px;
 }
 
+/* Styling these two h2 elements from the two major sections the same */
 .abt-cont h2, .proj-cont h2 {
     margin-right: 24px;
     padding: 24px; 
@@ -71,6 +76,8 @@
     padding: 6px;
     border: 2px solid var(--lessdark);
 }
+
+/* Project list section style below */
 .proj-cont {
     display: flex;
     flex-direction: row;
@@ -88,10 +95,13 @@
     border: 2px solid var(--lessdark);
 }
 
+
+/* Wrapper for images in order to create the title overlays below */
 .img-cont {
     position: relative; 
 }
-  
+
+/* Project image title overlays - need an overlay container, img hover behavior, and the actual overlay text itself inside its own container*/
 .overlay {
     position: absolute;
     top: 4.5%;
@@ -123,11 +133,13 @@
     transition: 1s ease;
 }
 
+/* Footer style - not much to see here! */
 .f-cont {
     text-align: center;
     font-size: 8pt;
 }
 
+/* Media responsiveness styling - changing orientation of the page from horizontal to vertical, changing orientation of the border for h2 headings */
 @media screen and (max-width: 768px) {
     .media {
         display: flex;
@@ -150,9 +162,5 @@
         padding: 24px; 
         border-bottom: 2px solid var(--dark);
         border-right: 2px solid var(--light);
-    }
-
-    .overlay {
-        display: none;
     }
 }

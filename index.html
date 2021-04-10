@@ -12,42 +12,47 @@
 </head>
 
 <body>
+    <!-- Fixed header with navigation links in the form of minimalistic icons that display a title on hover. Links open in a new tab. -->
 <header class="h-cont media">
     <h1>Emily Rendleman</h1>
     <nav class="nav-cont">
         <a href="https://github.com/emrendle" target="0" title="GitHub">
-            <img src="assets/images/GitHubIcon.svg">
+            <img src="assets/images/GitHubIcon.svg" alt="Github Icon">
         </a>
         <a href="https://www.linkedin.com/in/emily-rendleman/" target="0" title="LinkedIn">
-            <img src="assets/images/linkedinicon.svg">
+            <img src="assets/images/linkedinicon.svg" alt="Linkedin Icon">
         </a>
         <a href="mailto:emilyrendleman@gmail.com">
-            <img src="assets/images/EmailIcon.svg" title="Contact Me">
+            <img src="assets/images/EmailIcon.svg" title="Contact Me" alt="Email Icon">
         </a> 
     </nav>
 </header>
 
+<!-- About Me section containing a small blurb about me with a picture of myself. -->
 <section class="abt-cont media">
     <h2>About Me</h2>
         <img src="./assets/images/ZionProfPic.jpg" alt="Emily Rendleman">
         <p>I am an aspiring web developer, hoping to leverage my strong troubleshooting and problem-solving skills from my background in research science to make a career change.</p>
 </section>
-    
+   
+<!-- Section listing my projects (placeholders for now) - title overlays appear on hover over the images, which link to the projects (just my Github page for now). -->
 <section class="proj-cont media">
     <h2>Projects</h2>
-    <a href="https://github.com/emrendle" target=0> 
+    <a href="hhttps://emrendle.github.io/HW1-Refactoring/" target=0>
+        <!-- This div is the wrapper used, in part, to create the image title overlays below -->
         <div class="img-cont">
-            <img src="assets/images/Screen Shot 2021-04-02 at 7.16.43 AM.png" alt="Placeholder">
+            <img src="assets/images/HW1 example.png" alt="Project example image">
+            <!-- Image title overlays -->
             <div class="overlay">
                 <div class="overlay-txt">
-                    Example Project 1
+                    Horiseon Refactoring
                 </div>
             </div>
         </div>
     </a>
-    <a href="https://emrendle.github.io/HW1/" target=0>
+    <a href="https://github.com/emrendle" target=0> 
         <div class="img-cont">
-            <img src="assets/images/HW1 example.png" alt="Placeholder">
+            <img src="assets/images/Screen Shot 2021-04-02 at 7.16.43 AM.png" alt="Placeholder">
             <div class="overlay">
                 <div class="overlay-txt">
                     Example Project 2
@@ -77,6 +82,7 @@
     </a>
 </section>
 
+<!-- Just a simple footer. Prefer the nav links for contact be in the header. -->
 <footer class="f-cont">
     💻 NU Coding Bootcamp 2021.
 </footer>
