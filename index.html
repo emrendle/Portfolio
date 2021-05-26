@@ -2,90 +2,395 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emily Rendleman</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Emily Rendleman | Developer</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <!-- Bulma Version 0.9.0-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <script async type="text/javascript" src="../js/bulma.js"></script>
 </head>
 
 <body>
-    <!-- Fixed header with navigation links in the form of minimalistic icons that display a title on hover. Links open in a new tab. -->
-<header class="h-cont media">
-    <h1>Emily Rendleman</h1>
-    <nav class="nav-cont">
-        <a href="https://github.com/emrendle" target="0" title="GitHub">
-            <img src="assets/images/GitHubIcon.svg" alt="Github Icon">
+  <!-- Navigation bar -->
+  <nav class="navbar is-dark is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          <span class="icon">
+            <i class="fas fa-info"></i>
+          </span>
+          <span>About</span>
         </a>
-        <a href="https://www.linkedin.com/in/emily-rendleman/" target="0" title="LinkedIn">
-            <img src="assets/images/linkedinicon.svg" alt="Linkedin Icon">
+        <!-- <a class="navbar-item" href="#services">
+          <span class="icon">
+            <i class="fas fa-bars"></i>
+          </span>
+          <span>Services</span> -->
         </a>
-        <a href="mailto:emilyrendleman@gmail.com">
-            <img src="assets/images/EmailIcon.svg" title="Contact Me" alt="Email Icon">
-        </a> 
-    </nav>
-</header>
+        <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Resume</span>
+        </a>
+        <a class="navbar-item" href="#portfolio">
+          <span class="icon">
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span>Portfolio</span>
+        </a>
+        <a class="navbar-item" href="#contact">
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span>Contact</span>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-<!-- About Me section containing a small blurb about me with a picture of myself. -->
-<section class="abt-cont media">
-    <h2>About Me</h2>
-        <img src="./assets/images/ZionProfPic.jpg" alt="Emily Rendleman">
-        <p>I am an aspiring web developer, hoping to leverage my strong troubleshooting and problem-solving skills from my background in research science to make a career change.</p>
-</section>
-   
-<!-- Section listing my projects (placeholders for now) - title overlays appear on hover over the images, which link to the projects (just my Github page for now). -->
-<section class="proj-cont media">
-    <h2>Projects</h2>
-    <a href="https://emrendle.github.io/HW1-Refactoring/" target=0>
-        <!-- This div is the wrapper used, in part, to create the image title overlays below -->
-        <div class="img-cont">
-            <img src="assets/images/HW1 example.png" alt="Project example image">
-            <!-- Image title overlays -->
-            <div class="overlay">
-                <div class="overlay-txt">
-                    Horiseon Refactoring
-                </div>
-            </div>
-        </div>
-    </a>
-    <a href="https://github.com/emrendle" target=0> 
-        <div class="img-cont">
-            <img src="assets/images/Screen Shot 2021-04-02 at 7.16.43 AM.png" alt="Placeholder">
-            <div class="overlay">
-                <div class="overlay-txt">
-                    Example Project 2
-                </div>
-            </div>
-        </div>
-    </a>
-    <a href="https://github.com/emrendle" target=0>
-        <div class="img-cont">
-            <img src="https://via.placeholder.com/150" alt="Placeholder">
-            <div class="overlay">
-                <div class="overlay-txt">
-                    Example Project 3
-                </div>
-            </div>
-        </div>
-    </a>
-    <a href="https://github.com/emrendle" target=0>
-        <div class="img-cont">
-            <img alt="Placeholder" src="https://via.placeholder.com/150" alt="Placeholder">
-            <div class="overlay">
-                <div class="overlay-txt">
-                    Example Project 4
-                </div>
-            </div>
-        </div>
-    </a>
-</section>
+  <!-- Header -->
+  <section id="header" class="hero is-fullheight is-fullheight-with-navbar custom-header">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-1 white-txt">
+          Emily Rendleman
+        </h1>
+        <h2 class="subtitle is-3 white-txt">
+          Web Developer
+        </h2>
+      </div>
+    </div>
+  </section>
 
-<!-- Just a simple footer. Prefer the nav links for contact be in the header. -->
-<footer class="f-cont">
-    💻 NU Coding Bootcamp 2021.
-</footer>
+  <!-- About -->
+  <section class="section" id="about">
+    <!-- Title -->
+    <div class="section-heading">
+      <h3 class="title is-2">About Me</h3>
+      <h4 class="subtitle is-5">Scientist, developer, coffee enthusiast </h4>
+      <div class="container">
+        <p>
+            With a background in research science, I know what it takes to work diligently, collaborate meaningfully, and learn quickly in a highly technical environment. The collaborative nature of my career has made me a committed team member, and I have no doubt that my technical experience in web development paired with my career experience in management, dynamic problem-solving, and collaboration will make me an asset to any team I join. 
+        </p>
+      </div>
+    </div>
 
+    <div class="columns has-same-height is-gapless">
+      <div class="column">
+        <!-- Profile -->
+        <div class="card">
+          <div class="card-content">
+            <h3 class="title is-4">Profile</h3>
+
+            <div class="content">
+              <table class="table-profile">
+                <tr>
+                  <th colspan="1"></th>
+                  <th colspan="2"></th>
+                </tr>
+                <tr>
+                  <td>Address:</td>
+                  <td>448 E Ontario St., Chicago, IL 60611</td>
+                </tr>
+                <tr>
+                  <td>Phone:</td>
+                  <td>(312) 720-2563</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>emilyrendleman@gmail.com</td>
+                </tr>
+              </table>
+            </div>
+            <br>
+            <div class="buttons has-addons is-centered">
+              <a href="https://github.com/emrendle" class="button is-dark" target=0>Github</a>
+              <a href="https://www.linkedin.com/in/emily-rendleman/" class="button is-dark" target=0>LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <!-- Profile picture -->
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <!-- Skills -->
+        <div class="card">
+          <div class="card-content skills-content">
+            <h3 class="title is-4">Skills</h3>
+            <div class="content">
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>JavaScript:</strong>
+                      <br>
+                      <progress class="progress is-dark" value="90" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>HTML5/CSS3</strong>
+                      <br>
+                      <progress class="progress is-dark" value="95" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Node.js:</strong>
+                      <br>
+                      <progress class="progress is-dark" value="75" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Vue.js:</strong>
+                      <br>
+                      <progress class="progress is-dark" value="0" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Databases</strong>
+                      <br>
+                      <progress class="progress is-dark" value="0" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <!-- <section class="section" id="resume">
+    <div class="section-heading">
+      <h3 class="title is-2">Resume</h3>
+      <h4 class="subtitle is-5">Learn more about my experience</h4>
+      <a href="#" class="button is-dark is-medium">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+        <span>Download My Resume</span>
+      </a>
+    </div>
+  </section> -->
+
+  <!-- Portfolio -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Portfolio</h3>
+        <h4 class="subtitle is-5">View my latest projects</h4>
+      </div>
+
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Featured Project</h3>
+          <h4 class="subtitle is-5">On This Day...</h4>
+            <img src="assets/images/OnThisDayPreview (1).gif" class="demo">
+            <figcaption>
+              A project utilizing multiple APIs to give the user interesting facts about a chosen date.
+            </figcaption>
+            <a href="https://something-new-from-group-2.github.io/FloridaMan/" class="card-footer-item" target=0>View Deployed Application</a>
+      </div>
+
+      <div class="container portfolio-container">
+        <div class="columns">
+          <div class="column is-4">
+            <!-- Weather Dashboard -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Weather Dashboard</span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="assets/images/WeatherDashboard.png" alt="Screenshot of Weather Dashboard deployment">
+                </figure>
+                <figcaption class="card-content">Find the current day and five day forecast for any location.</figcaption>
+              </div>
+              <footer class="card-footer">
+                <a href="https://emrendle.github.io/WeatherDashboard/" class="card-footer-item" target=0>View</a>
+                <a href="https://github.com/emrendle/WeatherDashboard" class="card-footer-item" target=0>Source
+                  Code</a>
+              </footer>
+            </div>
+        </div>
+
+          <div class="column is-4">
+            <!-- Timed Quiz-->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Timed Quiz</span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="assets/images/QuizScreenshot.png" alt="Screenshot of Timed Quiz deployment">
+                </figure>
+                <figcaption class="card-content">A simple quiz using basic HTML, CSS, and JavaScript.</figcaption>
+              </div>
+              <footer class="card-footer">
+                <a href="https://emrendle.github.io/TimedQuiz/" class="card-footer-item" target=0>View</a>
+                <a href="https://github.com/emrendle/TimedQuiz" class="card-footer-item" target=0>Source
+                  Code</a>
+              </footer>
+            </div>
+            <!-- Workday Scheduler -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Workday Scheduler</span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="assets/images/WorkDayScheduler.png" alt="Screenshot of Workday Scheduler deployment">
+                </figure>
+                <figcaption class="card-content">An exercise utilizing jQuery and Moment.js to create a work day scheduler, hour by hour.</figcaption>
+              </div>
+              <footer class="card-footer">
+                <a href="https://emrendle.github.io/WorkDayScheduler/" class="card-footer-item" target=0>View</a>
+                <a href="https://github.com/emrendle/WorkDayScheduler" class="card-footer-item" target=0>Source
+                  Code</a>
+              </footer>
+            </div>
+          </div>
+
+          <div class="column is-4">
+            <!-- On This Day -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Random Password Generator</span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="assets/images/RandomPasswordGen.png" alt="Screenshot of Random Password Generator deployment">
+                </figure>
+                <figcaption class="card-content">A JavaScript exercise to generate a random password from user inputs.</figcaption>
+              </div>
+              <footer class="card-footer">
+                <a href="https://something-new-from-group-2.github.io/FloridaMan/" class="card-footer-item" target=0>View</a>
+                <a href="https://github.com/something-new-from-group-2/FloridaMan" class="card-footer-item" target=0>Source
+                  Code</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Contact</h3>
+        <h4 class="subtitle is-5">Get in touch</h4>
+      </div>
+      <br>
+
+      <div class="columns">
+        <div class="column is-6 is-offset-3">
+          <div class="box">
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Text input">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left">
+                <input class="input" type="email" placeholder="Email input" value="">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Textarea"></textarea>
+              </div>
+            </div>
+
+            <div class="field is-grouped has-text-centered">
+              <div class="control">
+                <button class="button is-link is-large"><span class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span>Submit</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- <footer class="footer">
+    <div class="section-heading">
+      <p>
+        Modified from the <strong>Bulma Personal Template</strong> by <a href="https://mubaidr.js.org">Muhammad Ubaid Raza</a>
+      </p>
+    </div>
+  </footer> -->
+
+  <script src="assets/main.js"></script>
 </body>
+
 </html>
