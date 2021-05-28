@@ -1,3 +1,4 @@
+/* CSS included in Bulma template used - unedited by me */
 .has-same-height .card {
   height: 320px;
   overflow: hidden;
@@ -41,22 +42,15 @@ th {
   margin-bottom: 6em;
 }
 
+/* My CSS additions */
 .custom-header {
   background-image: url("./images/DSC00588-HDR-2.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.white-txt {
-  color: white;
-}
-
 .custom-hero {
   text-align: center;
-}
-
-.demo {
-  margin: 24px;
 }
 
 a {
