@@ -17,3 +17,5 @@ This portfolio is a living, growing application that will expand as I complete p
 * This page was adapted from a Bulma CSS template [https://bulmatemplates.github.io/bulma-templates/templates/personal.html]. 
 
 * Still working on a headshot of myself for the About Me section!
+
+* gif of deployed On This Day project for the "featured project" section is low res - would like to replace this with a higher res version. 
